@@ -37,3 +37,10 @@ subtitle: "Markdown - RMarkdown"
 ~~Texto tachado~~
 
 <u>Texto subrayado</u>
+
+## Código - Distintos lenguajes de programación
+
+```Python
+print("Hello World")
+
+```
