@@ -1,0 +1,500 @@
+    5  git status
+    6  git add .
+    7  git status
+    8  git commit -m "commit inicio IEEE EMBS UTEC"
+    9  git status
+   10  git remote add origin https://github.com/lightbluetitan/ieee_embs_utec.git
+   11  git push -u origin master
+   12  exit
+   13  UNAME
+   14  uname
+   15  date
+   16  clear
+   17  dir
+   18  ls
+   19  ls -a
+   20  ls -l
+   21  mkdir lab_001
+   22  mkdir lab_002 lab_003 lab_004
+   23  clear;ls
+   24  ls -a
+   25  rmdir lab_004
+   26  clear;ls
+   27  cp html_complejo.html lab_003
+   28  ls lab_003
+   29  rmdir lab_003
+   30  rm -r lab_003
+   31  mv html_simple.html simple_html.html
+   32  clear;ls
+   33  cat > sandman_001.txt
+   34  cat sandman_001.txt 
+   35  clear;ls
+   36  ls *.txt
+   37  history
+   38  history > history_log.txt
+   39  clear;cat history_log.txt 
+   40  date
+   41  uname -a
+   42  uname -a
+   43  pwd
+   44  clear
+   45  uname
+   46  uname -a
+   47  pwd
+   48  tree
+   49  exit
+   50  uname
+   51  uname -a
+   52  date
+   53  pwd
+   54  dir
+   55  ls
+   56  ls -a
+   57  ls -l
+   58  clear
+   59  clear;ls
+   60  cd lab_001
+   61  cd ..
+   62  mkdir lab_003 lab_004
+   63  clear;ls
+   64  mkdir lab_004
+   65  rmdir lab_004
+   66  ls -d
+   67  ls -d */
+   68  clear;ls
+   69  cp history_log.txt lab_001
+   70  ls lab_001
+   71  cd lab_001
+   72  ls
+   73  cd ..
+   74  mv html_complejo.html complejo_codigo.html
+   75  mv complejo_codigo.html lab_001
+   76  ls
+   77  ls lab_001
+   78  rm *.Rmd
+   79  ls
+   80  rmdir lab_002
+   81  rmdir lab_001
+   82  rm -r lab_001
+   83  ls
+   84  ls -a
+   85  ls -l
+   86  ls -d */
+   87  del *.txt
+   88  cat > prueba_001.txt
+   89  cat prueba_001.txt 
+   90  history
+   91  history > historial_comandos_log.txt
+   92  cat historial_comandos_log.txt 
+   93  clear;date
+   94  clear;date
+   95  exit
+   96  ls -a
+   97  rm -r .git
+   98  exit
+   99  git init main
+  100  git status
+  101  git --version
+  102  pwd
+  103  clear;git --version
+  104  uname
+  105  uname -a
+  106  date
+  107  pwd
+  108  clear
+  109  pwd
+  110  dir
+  111  clear;date;pwd
+  112  ls
+  113  ls -a
+  114  ls -l
+  115  mkdir lab_001
+  116  mkdir lab_002 lab_003 lab_004
+  117  clear;ls
+  118  rmdir lab_004
+  119  ls
+  120  cat > prueba_001.txt
+  121  clear;ls
+  122  cat > prueba_002.txt
+  123  ls *.txt
+  124  clear;ls
+  125  rm prueba_002.txt
+  126  rm index.html logo_r.png
+  127  clear;ls
+  128  cp prueba_001.txt lab_001
+  129  ls lab_001
+  130  cd lab_001
+  131  ls
+  132  cd ..
+  133  rmdir lab_001
+  134  rm -r lab_001
+  135  clear;ls
+  136  mv prueba_001.txt test_001.txt
+  137  ls
+  138  mv test_001.txt lab_002
+  139  ls lab_002
+  140  history
+  141  history > history_log.txt
+  142  git --version
+  143  uname
+  144  uname -a
+  145  pwd
+  146  date
+  147  clear
+  148  dir
+  149  clear;pwd
+  150  ls
+  151  ls -a
+  152  ls -l
+  153  mkdir lab_001
+  154  mkdir lab_001 lab_002 lab_003
+  155  ls
+  156  cat > prueba_001.txt
+  157  clear;date;ls
+  158  cat prueba_001.txt 
+  159  history
+  160  clear;history > history_log.txt
+  161  ls
+  162  rm history_log.txt 
+  163  ls
+  164  rmdir lab_003
+  165  ls
+  166  cd lab_002
+  167  ls
+  168  cd ..
+  169  cd ..
+  170  cd git_002
+  171  clear;ls
+  172  cp prueba_001.txt lab_002
+  173  ls lab_002
+  174  mv prueba_001.txt test_001.txt
+  175  ls
+  176  mv test_001.txt lab_002
+  177  ls
+  178  rmdir lab_002
+  179  rm -r lab_002
+  180  clear;ls
+  181  exit
+  182  exit
+  183  git config --list
+  184  git config --local user.email "andrescaceresrossi@outlook.com"
+  185  git config --local user.name "Renzo Rossi V"
+  186  git config --list
+  187  git init
+  188  ls
+  189  git status
+  190  git add .
+  191  git status
+  192  git commit -m "primer commit de prueba"
+  193  clear;git log
+  194  git status
+  195  git branch
+  196  git branch rama_prueba_001
+  197  git branch
+  198  git checkout rama_prueba_001 
+  199  gti status
+  200  git status
+  201  clear;git status
+  202  git checkout master
+  203  git status
+  204  git checkout rama_prueba_001 
+  205  git checkout master
+  206  clear
+  207  ls -a
+  208  clear
+  209  ls
+  210  ls -a
+  211  git remote add bucket  https://renzocaceresrossi@bitbucket.org/renzocaceresrossi/prueba_500.git
+  212  git remote add bucket_001  https://renzocaceresrossi@bitbucket.org/renzocaceresrossi/prueba_500.git
+  213  git remote -v
+  214  git push -u bucket_001 master
+  215  git remote remove
+  216  git remote remove bucket
+  217  git remote remove origin
+  218  git remote remove bucket_001 
+  219  git remote add origin https://renzocaceresrossi@bitbucket.org/renzocaceresrossi/testeo_500.git
+  220  git push -uf origin master
+  221  clear
+  222  git remote
+  223  git remote remove origin
+  224  git remove -v
+  225  git remote -v
+  226  git remote add origin https://renzocaceresrossi@bitbucket.org/renzocaceresrossi/bitbucket_001.git
+  227  git remote -v
+  228  git push -u origin master
+  229  git push -uf origin master
+  230  exit
+  231  exit
+  232  git status
+  233  git status
+  234  git add .
+  235  git status
+  236  git commit -m "primer commit"
+  237  git log
+  238  git remote -v
+  239  git remote add githubd https://github.com/lightbluetitan/repositorio_final_001.git
+  240  git push -u githubd main
+  241  ls
+  242  c:
+  243  git init
+  244  git status
+  245  git add .
+  246  git commit -m "primer commit archivos rmarkdown"
+  247  git log
+  248  git remote add origin https://github.com/lightbluetitan/ieee_itc_rmarkdown
+  249  git push -u origin master
+  250  exit
+  251  git init
+  252  git remote add origin https://github.com/DataScienceResearchPeru/taller-bcp-impacto.git
+  253  git clone https://github.com/DataScienceResearchPeru/taller-bcp-impacto.git
+  254  git init
+  255  git remote add origin https://github.com/rtadeoz/taller_bigdata_databricks
+  256  git clone https://github.com/rtadeoz/taller_bigdata_databricks
+  257  ls
+  258  cd taller_bigdata_databricks/
+  259  ls
+  260  git add .
+  261  git status
+  262  git init
+  263  git status
+  264  git add .
+  265  git commit -m "Primer commit taller DSRP BCP"
+  266  git status
+  267  git remote add origin https://github.com/DataScienceResearchPeru/taller-bcp-impacto.git
+  268  git push -u origin master
+  269  exit
+  270  date
+  271  pwd
+  272  clear
+  273  clear;date;pwd
+  274  uname
+  275  uname -a
+  276  ls
+  277  ls -l
+  278  ls -a
+  279  clear;ls
+  280  mkdir lab_001
+  281  mkdir lab_002 lab_003 lab_004
+  282  ls
+  283  ls -d */
+  284  clear
+  285  ls -d */
+  286  ls
+  287  cat prueba_001.txt
+  288  cat > prueba_001.txt
+  289  cat prueba_001.txt 
+  290  cp *.txt lab_001
+  291  ls lab_001
+  292  ls *.txt
+  293  rm prueba_001.txt 
+  294  ls
+  295  rmdir lab_001
+  296  rm -r lab_001
+  297  ls
+  298  clear;ls
+  299  cd lab_002
+  300  cd ..
+  301  ls
+  302  history
+  303  clear;history > hist_log.txt
+  304  ls
+  305  cat hist_log.txt 
+  306  ls
+  307  mv hist_log.txt historia_log.txt
+  308  ls
+  309  ls lab_003
+  310  exit
+  311  git init
+  312  ls
+  313  clear
+  314  git --version
+  315  ls -a
+  316  git status
+  317  cat > .gitignore
+  318  git status
+  319  clear;git status
+  320  cat .gitignore
+  321  clear;git status
+  322  git add all_python_001.html
+  323  git status
+  324  git rm --cached all_python_001.html
+  325  clear;git status
+  326  git add *.Rmd
+  327  git status
+  328  git add *.html
+  329  clear;git status
+  330  git add .
+  331  clear;git status
+  332  git rm --cached README.md
+  333  git rm --cached .
+  334  git rm -r --cached .
+  335  clear;git status
+  336  git add .
+  337  git status
+  338  git commit
+  339  git status
+  340  git log
+  341  clear
+  342  git status
+  343  git --checkout README.md
+  344  git restore README.md
+  345  git status
+  346  git checkout -- README.md
+  347  clear;git status;git log
+  348  git reset --hard 95d6a834d734ae78926cf72edc9659495985ae3b
+  349  git status
+  350  git log
+  351  git --list
+  352  git config --list
+  353  clear
+  354  git config --list
+  355  git config --global user.name "Renzo Rossi Velasquez"
+  356  git config --global user.email "arenzocaceresrossi@gmail.com"
+  357  git config --local user.name "andres caceres rossi"
+  358  git config --local user.email "andrescaceresrossi@outlook.com"
+  359  clear;git config --list
+  360  clear;git status
+  361  git diff README.md
+  362  git remotw -v
+  363  clear
+  364  git remote -v
+  365  git remote --v
+  366  git remote add origin https://github.com/lightbluetitan/prueba_curso_git
+  367  git remote -v
+  368  git push -u origin master
+  369  exit
+  370  git init
+  371  git status
+  372  git add .
+  373  git status
+  374  git commit -m "primer commit prueba"
+  375  git status
+  376  clear
+  377  git remote add origin https://github.com/lightbluetitan/prueba_git_100.git
+  378  git push -u origin main
+  379  git status
+  380  git remote add bitbucket https://renzocaceresrossi@bitbucket.org/renzocaceresrossi/curso_git_001.git
+  381  git push -u bitbucket main
+  382  git remote add gitlab https://gitlab.com/m10720/git_001_curso.git
+  383  git push -u gitlab main
+  384  clear
+  385  git branch testeo_001
+  386  git branch
+  387  git checkout testeo_001 
+  388  cat > prueba_testeo_001.txt
+  389  ls
+  390  git checkout main
+  391  ls
+  392  git remove -v
+  393  git remote -v
+  394  git clone https://github.com/lightbluetitan/prueba_git_100.git
+  395  exit
+  396  git init
+  397  git status
+  398  git add *.Rmd
+  399  git status
+  400  git add latex*.md
+  401  git add *.png
+  402  git add *.jpg
+  403  git commit -m "First commit - RMarkdown"
+  404  git remote add origin https://github.com/lightbluetitan/ieee_embs_utec_repo
+  405  git push -u origin main
+  406  git push -uf origin main
+  407  exit
+  408  ls
+  409  pwd
+  410  git init
+  411  ls
+  412  ls -a
+  413  git status
+  414  git status
+  415  git add barplot_ggplot2_001.R 
+  416  git status
+  417  git rm --cached barplot_ggplot2_001.R 
+  418  git status
+  419  git add barplot_ggplot2_001.R 
+  420  git status
+  421  git status
+  422  git restore barplot_ggplot2_001.R
+  423  git status
+  424  git add .
+  425  git status
+  426  git rm --cached .
+  427  git status
+  428  git rm --cached 
+  429  git rm --cached *.*
+  430  git status
+  431  git status
+  432  git add .
+  433  git status
+  434  git commit
+  435  git log
+  436  git status
+  437  git status
+  438  git checkout -- barplot_ggplot2_001.R
+  439  git status
+  440  git diff barplot_ggplot2_001.R
+  441  git diff barplot_ggplot2_001.R
+  442  git status
+  443  git add .
+  444  git commit
+  445  git log
+  446  git log
+  447  git log
+  448  ls
+  449  pwd
+  450  git init
+  451  ls
+  452  git status
+  453  ls
+  454  pwd
+  455  git init
+  456  git status
+  457  git add all_features_001.R 
+  458  git status
+  459  git add .
+  460  git status
+  461  git rm --cached
+  462  git rm --cached *.*
+  463  git status
+  464  git add .
+  465  git status
+  466  git commit
+  467  git log
+  468  ls
+  469  pwd
+  470  ls -a
+  471  git init
+  472  git status
+  473  git add rmarkdown*.*
+  474  git status
+  475  git rm --cached *.Rmd
+  476  git status
+  477  git rm --cached .
+  478  git status
+  479  git rm --cached rmarkdown_001.Rmd 
+  480  git status
+  481  git status
+  482  git add .
+  483  git status
+  484  git rm --cached -r .
+  485  git status
+  486  git add .
+  487  clear
+  488  git status
+  489  git rm --cached - r.
+  490  git rm --cached -r .
+  491  git status
+  492  git add ioslides_presentacion_001.Rmd 
+  493  git status
+  494  git commit
+  495  clear
+  496  git status
+  497  git log
+  498  ls
+  499  ls -a
+  500  pwd
+  501  clear
+  502  clear;pwd
+  503  history
+  504  history > history_commands_log.txt
